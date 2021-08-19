@@ -1,0 +1,21 @@
+{
+  "name": "moiraeserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch server server/index.js",
+    "build": "cd ../client && npm install && npm run build" 
+  },
+  "engines": {
+    "node" : "v12.18.2"
+  },
+  "keywords": [],
+  "author": "Ilham Wicaksono",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
