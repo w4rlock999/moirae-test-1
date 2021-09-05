@@ -1,7 +1,37 @@
 .menuButton {
+  font-family: "Montserrat", sans-serif;
   background: none;
   border: none;
   margin: 0;
   padding: 0;
   cursor: pointer;
+}
+
+.loginButton {
+  background-color: #44c767;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+
+.loginButton2 {
+  width: 107px;
+  height: 33px;
+  border: 0px;
+  border-radius: 6px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  background: linear-gradient(
+    109.84deg,
+    rgba(255, 255, 255, 0.36) -74.94%,
+    #524abf 94.73%
+  );
 }

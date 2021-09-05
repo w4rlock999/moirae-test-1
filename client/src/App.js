@@ -1,8 +1,9 @@
 import React from 'react'
 import logo from './logo.svg';
 import './App.css';
-import Body from './body'
-import Header from './header'
+import Dashboard from './Dashboard';
+import Landing from './Landing';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 
 function App() {
@@ -17,9 +18,14 @@ function App() {
 
 
   return (
-    <div style={{textAlign: "center", display: "block"}}>
-      <Header/>
-      <Body/>
+    <div style={{display: "block"}}>
+
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Landing}/>
+          <Route exact path="/dashboard" component={Dashboard}/>
+        </Switch>
+      </Router>
     </div>
   );
 }
